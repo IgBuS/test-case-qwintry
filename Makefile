@@ -9,7 +9,7 @@ install:
 	npm install
 
 migrate:
-	php artisan migrate -v
+	php artisan migrate -v --seed
 
 setup:
 	make install
