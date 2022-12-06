@@ -16,7 +16,7 @@ setup:
 	make build
 
 start:
-	php artisan serve
+	php artisan serve --host 0.0.0.0 --port 3000
 	
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 app database config routes
