@@ -13,7 +13,7 @@ migrate:
 
 setup:
 	make install
-	make migrate
+	make build
 
 start:
 	php artisan serve
