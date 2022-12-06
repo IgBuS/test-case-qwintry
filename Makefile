@@ -27,7 +27,7 @@ lint-fix:
 build:
 	npm run build
 	php artisan optimize
-	php artisan migrate --force --seed
+	php artisan migrate:refresh --seed --force
 
 test-coverage:
 	composer exec --verbose phpunit tests -- --coverage-clover build/logs/clover.xml
