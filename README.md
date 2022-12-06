@@ -13,7 +13,7 @@
 ## General info
 This is a primitive ToDo list with only to sections foe your tasks "regular" and "urgent". You can cereate a task, mark ias done, remove the mark or move your task to the another section. 
 
-Public app link - https://web-production-0da7.up.railway.app/
+Public app link - https://test-case-qwintry-production.up.railway.app/
 
 ## Technologies
 Project is created with:
